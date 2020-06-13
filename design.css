@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: silver;
+    margin: auto;
+    height: auto;
+    width: 330px;
+    padding: 10px;
+}
+
+#display {
+    width: 100%;
+    font-size: 30px;
+    font-weight: 30px;
+    color: black;
+    text-align: right;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+input[type='button']:hover {
+    background-color: gray;
+    color: black;
+}
+
+input[type='button'] {
+    width: 72px;
+    font-size: 25px;
+    font-weight: 25px;
+    margin-top: 5px;
+    padding: 5px;
+    border: none;
+    background: black;
+    color: gray;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#oper {
+    background-color: rgb(228, 33, 33);
+}
+
+#oper:hover {
+    background: yellow;
+    color: red;
+}
+
+#del {
+    width: 100%;
+    background: red;
+}
